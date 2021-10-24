@@ -1,0 +1,17 @@
+.info-list{
+    margin-top: 3rem;
+    list-style-type: none;
+    line-height: 1.8;
+
+    li{
+        font-size: 1.8rem;
+
+        .positive{
+            color: green;
+        }
+
+        .negative{
+            color: red;
+        }
+    }
+}

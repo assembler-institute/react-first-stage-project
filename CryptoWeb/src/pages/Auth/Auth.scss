@@ -1,0 +1,48 @@
+form {
+    margin: 0.75rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    
+    input {
+        height: 3rem;
+        width: 75%;
+        border-radius: 0.5rem;
+        border: 1.5px solid #971010;
+        margin: auto;
+        padding-left: 2rem;
+        font-size: 1rem;
+        color: #971010;
+
+        &:focus {
+            background-color: #971010;
+            color: white;
+        }
+    }
+
+    button {
+        height: 3rem;
+        width: 81%;
+        padding: 1rem;
+        border: 1.5px solid white;
+        border-radius: 0.5rem;
+        background-color: rgb(216, 0, 0);
+        margin: auto;
+        cursor: pointer;
+        color: white;
+        font-size: 1rem;
+
+        &:hover {
+            background-color: darken(rgb(216, 0, 0), 5%);
+        }
+    }
+}
+
+.intro-title{
+    font-size: 3.5rem;
+    text-align: left;
+    color: rgb(216, 0, 0);
+    width: 50%;
+}
